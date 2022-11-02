@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@400;700&display=swap'); */
 body {
   color: #494949;
   margin: 0;
@@ -16,11 +18,11 @@ body {
 
 .banner h1 {
   font-size: 38px;
+  font-weight: bolder;
 }
 
 .banner p {
   font-size: 30px;
-  font-style: italic;
   font-weight: lighter;
   opacity: 0.8;
 }
@@ -32,7 +34,7 @@ body {
 
 .container h2 {
   color: #A0A0A0;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 h1, h2 {
@@ -45,7 +47,6 @@ font-weight: bold;
   color: #636363;
   font-weight: lighter;
   font-size: 25px;
-  font-style: italic;
 }
 
 .link-medium:hover {
@@ -56,7 +57,7 @@ font-weight: bold;
 @media (max-width: 1200px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 900px;
+    width: 700px;
   }
 }
 
