@@ -1,0 +1,82 @@
+body {
+  color: #494949;
+  margin: 0;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 1.6;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.banner h1 {
+  font-size: 38px;
+}
+
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.container {
+  margin: 50px auto;
+  width: 700px;
+}
+
+.container h2 {
+  color: #A0A0A0;
+  font-weight: normal;
+}
+
+h1, h2 {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+}
+
+.link-medium {
+  background-image: linear-gradient(90deg, rgba(34,193,195,0.35) 100%, rgba(253,187,45,1) 100%);
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(90deg, rgba(7,140,142,0.62) 100%, rgba(253,187,45,1) 100%);
+}
+
+
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
